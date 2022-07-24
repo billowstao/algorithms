@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "algorithms",
   "private": true,
-  "keywords": ["algorithm", "js"],
+  "keywords": [
+    "algorithm",
+    "js"
+  ],
   "author": "billowstao",
   "license": "MIT",
   "engines": {
-    "node": ">=16",
+    "node": ">=18",
     "npm": "^8",
     "pnpm": "^7"
+  },
+  "scripts": {
+    "start": "node ./src/index.mjs"
   }
 }
