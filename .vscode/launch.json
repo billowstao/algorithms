@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Node.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/src/index.mjs",
+      "runtimeExecutable": "${userHome}/.fnm/aliases/default/bin/node"
+    }
+  ]
+}
