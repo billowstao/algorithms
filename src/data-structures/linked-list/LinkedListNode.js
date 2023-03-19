@@ -1,10 +1,24 @@
 /**
  * 链表节点
  */
-export default class LinkedListNode {
+export class LinkedListNode {
+  /**
+   * 值
+   *
+   * @type {*}
+   */
+  value;
+
+  /**
+   * 下一个节点
+   *
+   * @type {LinkedListNode}
+   */
+  next;
+
   /**
    * @param {*} value - 值
-   * @param {*} [next=null] - 下一个节点
+   * @param {LinkedListNode} [next=null] - 下一个节点
    */
   constructor(value, next = null) {
     this.value = value;
@@ -12,7 +26,7 @@ export default class LinkedListNode {
   }
 
   /**
-   * @callback callback
+   * @callback CallBack
    * @param {*} value - 值
    * @returns {void}
    */
@@ -20,8 +34,8 @@ export default class LinkedListNode {
   /**
    * 转换为字符串
    *
-   * @param {callback} callback - 回调函数
-   * @returns {string} - 字符串
+   * @param {CallBack} callback - 回调函数
+   * @returns {string} 字符串
    */
   toString(callback) {
     if (typeof callback === 'function') {
@@ -32,4 +46,4 @@ export default class LinkedListNode {
   }
 }
 
-export { LinkedListNode };
+export default LinkedListNode;

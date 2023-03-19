@@ -1,7 +1,7 @@
 /**
  * 比较状态
  */
-const CompareState = {
+export const CompareState = {
   /** 小于 */
   lessThan: -1,
   /** 等于 */
@@ -10,4 +10,4 @@ const CompareState = {
   greaterThan: 1,
 };
 
-export { CompareState };
+export default CompareState;

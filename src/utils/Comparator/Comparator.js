@@ -3,7 +3,7 @@ import { CompareState } from './CompareState.js';
 /**
  * 对比类
  */
-export default class Comparator {
+export class Comparator {
   /**
    * @function compareFunc
    * @param {*} pre - 前一个值
@@ -66,4 +66,4 @@ export default class Comparator {
   }
 }
 
-export { Comparator };
+export default Comparator;
