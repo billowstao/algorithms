@@ -5,7 +5,7 @@ import { CompareState } from './CompareState.js';
  */
 export class Comparator {
   /**
-   * @function compareFunc
+   * @function CompareFunc
    * @param {*} pre - 前一个值
    * @param {*} next - 后一个值
    * @return {CompareState} - 比较结果
