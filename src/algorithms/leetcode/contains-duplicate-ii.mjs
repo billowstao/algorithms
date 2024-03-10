@@ -1,7 +1,7 @@
 /**
  * 219. 存在重复元素 II
  *
- * @see {@link https://leetcode.cn/problems/contains-duplicate-ii/}
+ * @see {@link https://leetcode.com/problems/contains-duplicate-ii/}
  */
 
 /**

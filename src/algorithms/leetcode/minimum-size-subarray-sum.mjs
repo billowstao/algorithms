@@ -1,7 +1,7 @@
 /**
  * 209. 长度最小的子数组
  *
- * @see {@link https://leetcode.cn/problems/minimum-size-subarray-sum/}
+ * @see {@link https://leetcode.com/problems/minimum-size-subarray-sum/}
  */
 
 /**

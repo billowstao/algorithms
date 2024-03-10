@@ -1,7 +1,7 @@
 /**
  * 187. 重复的DNA序列
  *
- * @see {@link https://leetcode.cn/problems/repeated-dna-sequences/}
+ * @see {@link https://leetcode.com/problems/repeated-dna-sequences/}
  */
 
 /**

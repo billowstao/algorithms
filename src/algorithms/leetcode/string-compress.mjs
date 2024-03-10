@@ -1,7 +1,7 @@
 /**
  * 443. 压缩字符串
  *
- * @see {@link https://leetcode.cn/problems/string-compression/}
+ * @see {@link https://leetcode.com/problems/string-compression/}
  */
 
 /**

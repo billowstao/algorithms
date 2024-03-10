@@ -1,7 +1,7 @@
 /**
  * 16. 最接近的三数之和
  *
- * @see {@link https://leetcode.cn/problems/3sum-closest/}
+ * @see {@link https://leetcode.com/problems/3sum-closest/}
  */
 
 /**

@@ -1,7 +1,7 @@
 /**
  * 33. 搜索旋转排序数组
  *
- * @see {@link https://leetcode.cn/problems/search-in-rotated-sorted-array/}
+ * @see {@link https://leetcode.com/problems/search-in-rotated-sorted-array/}
  */
 
 /**

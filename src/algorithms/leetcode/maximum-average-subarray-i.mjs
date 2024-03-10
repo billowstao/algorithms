@@ -1,7 +1,7 @@
 /**
  * 643. 子数组最大平均数 I
  *
- * @see {@link https://leetcode.cn/problems/maximum-average-subarray-i/}
+ * @see {@link https://leetcode.com/problems/maximum-average-subarray-i/}
  */
 
 /**

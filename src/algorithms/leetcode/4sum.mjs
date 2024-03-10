@@ -1,7 +1,7 @@
 /**
  * 18. 四数之和
  *
- * @see {@link https://leetcode.cn/problems/4sum/}
+ * @see {@link https://leetcode.com/problems/4sum/}
  */
 
 /**
