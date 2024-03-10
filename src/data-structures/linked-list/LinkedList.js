@@ -239,4 +239,76 @@ export class LinkedList {
 
     return deletedHead;
   }
+
+  /**
+   * 将数组添加到链表
+   *
+   * @param {*[]} values - 数组值
+   * @returns {LinkedList} 链表
+   */
+  fromArray(values) {
+    values.forEach((value) => {
+      this.append(value);
+    });
+
+    return this;
+  }
+
+  /**
+   * 转换为数组
+   *
+   * @returns {LinkedListNode[]} 链表数组
+   */
+  toArray() {
+    const values = [];
+
+    let currentNode = this.head;
+
+    while (currentNode) {
+      values.push(currentNode);
+      currentNode = currentNode.next;
+    }
+
+    return values;
+  }
+
+  /**
+   * 转换为字符串
+   *
+   * @param {function} callback
+   * @returns {string} 字符串
+   */
+  toString(callback) {
+    return (
+      this.toArray()
+        // `toString` 调用 `LinkedListNode#toString`
+        .map((value) => value.toString(callback))
+        .toString()
+    );
+  }
+
+  /**
+   * 反转链表
+   *
+   * @returns {LinkedList} 反转后的链表
+   */
+  reverse() {
+    let currentNode = this.head;
+    let prevNode = null;
+    let nextNode = null;
+
+    while (currentNode) {
+      // 存储
+      nextNode = currentNode.next;
+      currentNode.next = prevNode;
+
+      prevNode = currentNode;
+      currentNode = nextNode;
+    }
+
+    this.tail = this.head;
+    this.head = prevNode;
+
+    return this;
+  }
 }
